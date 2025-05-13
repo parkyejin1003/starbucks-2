@@ -2,7 +2,7 @@
 .container {
     width: 1100px;
     height: inherit;
-   /*  background: rgba(0,0,0,.3); */
+/*     background: rgba(0,0,0,.3); */
     margin: 0 auto;
     position: relative;
 }
@@ -351,4 +351,254 @@ letter-spacing: -3px;}
     text-indent: -2000px;
     bottom: 200px;
 }
-.fav_img{}
+.fav_img{
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    right: -40%;
+}
+.btn_fav_prod{
+    position: absolute;
+    bottom: 100px;
+    left: 200px;
+}
+.btn_fav_prod a{
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.btn_fav_prod a:hover{
+    background-color: #fff;
+    color: #333;
+}
+.reserve_magazine_wrap{
+    width: 100%;
+    height: 400px;
+    background: url(../img/reserve_bg_pc.png) no repeat 50% 100%;
+    background-size: auto 353px;
+    overflow: hidden;
+}
+.reserve_magazine_title{
+    position: absolute;
+    left: 0;
+    top: 130px;
+}
+.reserve_magazine_img{
+    position: absolute;
+    right: 68px;;
+
+}
+.btn_reserve_prod-1{
+    position: absolute;
+    bottom: 140px;
+    left: 230px;
+}
+.btn_reserve_prod-1 a{
+    color: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.btn_reserve_prod{
+    position: absolute;
+    bottom: 110px;
+    left: 300px;
+}
+.btn_reserve_prod a{
+    color: #000;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.btn_reserve_prod a:hover{
+    background: #000;
+    color: #fff;
+}
+
+/* store-wrap */
+.store-wrap{
+    width: 100%;
+    height: 400px;
+    background: url(../img/store_bg.jpg);
+    overflow: hidden;
+}
+.store_exp_img01{
+    width: 225px;
+    height: 225px;
+    background: url(../img/221212_main_story_2.png);
+    z-index: 10;
+    position: absolute;
+    bottom: 30px;
+    left: 255px;
+}
+.store_exp_img02{
+    width: 363px;
+    height: 310px;
+    background: url(../img/221212_main_story_1.png);
+    position: absolute;
+    top: 0;
+    left: 24px;
+    z-index: 11;
+}
+.store_exp_img03{
+    width: 343px;
+    height: 142px;
+    position: absolute;
+    top: -50px;
+    left: 30%;
+    background: url(../img/store_exp_img03.png);
+}
+.store_exp_img04{
+    bottom: 0;
+    width: 230px;
+    height: 102px;
+    position: absolute;
+    right: -50px;
+    background: url(../img/store_exp_img04.png); 
+}
+.store_txt01{
+    width: 374px;
+    height: 55px;
+    background: url(../img/221212_pc_main_story_txt_1.png);
+    position: absolute;
+    top: 100px;
+    left: 50%;
+}
+.store_txt02{
+     width: 374px;
+    height: 91px;
+    background: url(../img/221212_pc_main_story_txt_2.png);
+    position: absolute;
+    top: 170px;
+    left: 50%;
+}
+.store_btn{
+    position: absolute;
+    left: 50%;
+    bottom: 85px;
+}
+.store_btn a{
+    padding: 10px 20px;
+    border: 1px solid #000;
+    color: #000;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.store_btn a:hover{
+    background: #000;
+    color: #fff;
+}
+#footer{
+    background: #2c2a29;
+    padding: 32px 0px 35px;
+}
+.footer-top-inner{
+    width: 1100px;
+    height: 238px;
+    margin: 0 auto;
+    background: url(../img/footer_logo.png) right 8px no-repeat;
+    display: flex;
+
+}
+.footer-top-inner ul{
+    width: 20%;
+}
+.footer-top-inner ul li.title{
+    margin-bottom: 20px;
+}
+.footer-top-inner ul li.title a{
+    font-size: 16px;
+}
+.footer-top-inner ul li{
+    line-height: 1.5;
+}
+.footer-top-inner ul li a{
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+}
+.footer-mid{
+    width: 100%;
+    height: 60px;
+    margin-top: 40px;
+    padding-top: 20px;
+    background: #282828;
+}
+.footer-mid .footer-mid-inner{
+    width: 1100px;
+    margin: 0 auto;
+}
+.footer-mid .footer-mid-inner ul{
+    display: flex;
+}
+.footer-bottom-inner{
+    width: 1100px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+}
+.copyright li{
+    position: relative;
+}
+.copyright li:not(:last-child)::after{
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 10px;
+    right: 0;
+    top: 5px;
+    background: #999999;
+}
+.copyright li a{
+    font-size: 12px;
+    letter-spacing: -2px;
+    padding: 0 10px;
+    color: #fff;
+}
+.copyright li .gr{
+    color: green;
+    font-weight: bold;
+}
+
+.copyright1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.copyright1 a{
+    display: inline-block;
+    width: 114px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #fff;
+    color: #fff;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+.copy_menu{
+    margin-top: 30px;
+    color: #999;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+.copy_menu li{
+    margin: 0 10px;
+}
+
+address{
+    color: #999;
+    margin-top: 30px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+}
